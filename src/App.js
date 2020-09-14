@@ -1,9 +1,16 @@
-import React from 'react';
+import React from 'react'
+import Navbar from './components/Navbar'
+import Bio from './components/Bio'
+import Footer from './components/Footer'
 
-function App() {
+const App = () => {
   return (
-    
-  );
+    <>
+      <Navbar />
+      <Bio />
+      <Footer />
+    </>
+  )
 }
 
-export default App;
+export default App
